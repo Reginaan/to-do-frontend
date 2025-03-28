@@ -1,0 +1,39 @@
+.light {
+  --background-color: #{$background-color-light};
+  --text-color: #{$text-color-light};
+  --switch-background: #{$switch-background-light};
+  --switch-slider-bg: #{$switch-slider-light-bg};
+  --switch-slider-shadow: #{$switch-slider-light-shadow};
+  --switch-text-active: #{$switch-text-light-active};
+  --switch-text-inactive: #{$switch-text-light-inactive};
+  --project-page-filters-selected-item: #{$project-page-filters-selected-item-light};
+  --task-date-bg: #{$task-date-bg-light};
+  --task-date-text: #{$task-date-text-light};
+  --border-color: #{$border-color-light};
+  --icon-color: #{$icon-color-light};
+  --auth-bg-color: #{$auth-bg-color-ligt};
+  --auth-shadow: #{$auth-shadow-ligt};
+}
+
+.dark {
+  --background-color: #{$background-color-dark};
+  --text-color: #{$text-color-dark};
+  --switch-background: #{$switch-background-dark};
+  --switch-slider-bg: #{$switch-slider-dark-bg};
+  --switch-slider-shadow: #{$switch-slider-dark-shadow};
+  --switch-text-active: #{$switch-text-dark-active};
+  --switch-text-inactive: #{$switch-text-dark-inactive};
+  --project-page-filters-selected-item: #{$project-page-filters-selected-item-dark};
+  --task-date-bg: #{$task-date-bg-dark};
+  --task-date-text: #{$task-date-text-dark};
+  --border-color: #{$border-color-dark};
+  --icon-color: #{$icon-color-dark};
+  --auth-bg-color: #{$auth-bg-color-dark};
+  --auth-shadow: #{$auth-shadow-dark};
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  transition: background-color 0.3s, color 0.3s;
+}

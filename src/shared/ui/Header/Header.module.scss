@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  height: 94px;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+
+  .title {
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+  }
+}
